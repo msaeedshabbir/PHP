@@ -1,0 +1,52 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.nav-link.active {
+    color: #ffffff;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(186, 217, 186);
+
+    height: 500px;
+
+}
+
+.flex-item {
+    background-color: #ffffff;
+    align-self: flex-start;
+    font-style: bold;
+    font-size: 10pt;
+
+    height: 20px;
+    width: 50px;
+    margin: 50px;
+}
+
+.flex-containers {
+    display: flex;
+    justify-self: self-end;
+    justify-content: space-around;
+    background-color: rgb(184, 38, 25);
+
+    height: 500px;
+
+}
+
+.flex-items {
+    background-color: #7fffd4;
+    align-self: flex-end;
+    font-style: italic;
+    font-size: 30pt;
+
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
